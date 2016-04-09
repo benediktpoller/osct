@@ -12,6 +12,14 @@ angular.module('myApp.view1', ['ngRoute'])
             templateUrl: 'views/termine.html',
             controller: 'View1Ctrl'
         })
+        .when('/verein', {
+            templateUrl: 'views/verein.html',
+            controller: 'View1Ctrl'
+        })
+        .when('/veranstaltungen', {
+            templateUrl: 'views/veranstaltungen.html',
+            controller: 'View1Ctrl'
+        })
         .when('/kontakt', {
             templateUrl: 'views/kontakt/kontakt.html',
             controller: 'View1Ctrl'

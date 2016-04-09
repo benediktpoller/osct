@@ -5844,6 +5844,11 @@ body {
 
 /* app css stylesheet */
 body {
+  background: url(http://www.porsche-willich.de/portal/pics/wil/Bilder/Service/Service_Angebote/porsche_classic/porsche_classic-oldtimer.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: 'Droid Sans', sans-serif;
   padding-top: 2em;
   color: #444;
