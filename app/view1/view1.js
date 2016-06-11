@@ -41,7 +41,11 @@ angular.module('myApp.view1', ['ngRoute'])
 
     ///////////////////////
 
-    function resetContactForm() {
+    function resetContactForm(event) {
+        if(event) {
+            event.preventDefault();
+        }
+        
         $scope.contact = {
             _subject: 'OSCT | Kontaktformular'
         };
